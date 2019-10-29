@@ -10,8 +10,6 @@
 #include "Error.h"
 
 
-
-
 class Token_stream {
 public:
     Token_stream(istream& s) : ip{&s}, owns{false} { }
